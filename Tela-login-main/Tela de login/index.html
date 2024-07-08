@@ -12,9 +12,9 @@
             <h1>Login</h1>
             <div class="dados">
                 <label class="texto" for="Email">E-mail</label>
-                <input class="caixa_texto" type="email" placeholder="Digite seu e-mail">
+                <input class="caixa_texto" type="email" id="Email" placeholder="Digite seu e-mail">
                 <label class="texto" for="Senha">Senha</label>
-                <input class="caixa_texto" type="password" placeholder="Digite sua senha">
+                <input class="caixa_texto" type="password" id="Senha"  placeholder="Digite sua senha">
             </div>
             <a href="#" target="_blank"><p>Não tem login ainda? cadastrar</p></a>
             <div class="checkbox">
@@ -30,8 +30,9 @@
                 <input type="radio" id="Outro" name="sexo" value="Outro">
                 <label for="salvar">outro</label>
             </div>
-            <button href="/">acessar</button>
-         </div>
+            <button onclick="Enviar()">acessar</button>
+        </div>
     </section>
+    <script src="file.js"></script>
 </body>
 </html>
